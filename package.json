@@ -1,0 +1,28 @@
+{
+  "name": "swiggy",
+  "version": "1.0.0",
+  "description": "My swiggy app",
+  "homepage": "https://github.com/amulyaparab/Swiggy#readme",
+  "bugs": {
+    "url": "https://github.com/amulyaparab/Swiggy/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amulyaparab/Swiggy.git"
+  },
+  "license": "ISC",
+  "author": "amulyaparab",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  }
+}
